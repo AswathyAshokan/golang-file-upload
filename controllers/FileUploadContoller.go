@@ -32,7 +32,7 @@ func (c *FileUploadController)FileUpload(){
 			fmt.Println(err)
 			return
 		}else{
-			fmt.Println("image uploaded")
+			fmt.Println("image  uploaded")
 		}
 		fmt.Println("jst")
 
