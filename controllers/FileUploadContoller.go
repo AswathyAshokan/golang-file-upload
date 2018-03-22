@@ -15,7 +15,6 @@ type FileUploadController struct {
 func (c *FileUploadController)FileUpload(){
 	r := c.Ctx.Request
 	w := c.Ctx.ResponseWriter
-	fmt.Println("hereeeee")
 	if r.Method == http.MethodPost{
 		file,header,err :=r.FormFile("uploadfile")
 		if err !=nil{
