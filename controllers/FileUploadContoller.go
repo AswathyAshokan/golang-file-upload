@@ -38,7 +38,7 @@ func (c *FileUploadController)FileUpload(){
 
 		io.Copy(f, file)
 		defer file.Close()
-		fmt.Fprintf(w,"file  uploaded")
+		fmt.Fprintf(w,"file uploaded")
 
 
 	}else{
